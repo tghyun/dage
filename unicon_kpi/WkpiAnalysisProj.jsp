@@ -147,7 +147,7 @@
 			throw new Exception("USER-900001:공통코드의 KPI 역할별 가중치 Select 오류 -> " + ex.getMessage());
 		}
 
-	}
+	} 
 	catch (Exception ex)
 	{
 		throw new Exception("SYS-100001:페이지 초기화 오류 -> " + ex.getMessage());
